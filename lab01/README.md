@@ -1,6 +1,5 @@
 # Lab01 - Data Flow, Componentes e Regras de Associação
 ---
----
 
 ## Projeto Orange / Regras de Associação para Foodmart
 
@@ -14,7 +13,7 @@ _Data flow_
 
 ### Arquivos do Projeto
 
-- [orange/foodmart](orange/foodmart)
+- [orange/foodmart](orange/FoodMart)
 
 ---
 
@@ -30,7 +29,7 @@ _Data flow_
 
 ### Arquivo do Projeto
 
-- [orange/google](orange/google)
+- [orange/google](orange/GoogleStore)
 
 ### Gráfico(s) de Análise
 
