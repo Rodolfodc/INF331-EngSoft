@@ -1,114 +1,80 @@
-# Estrutura de Arquivos e Pastas
+# Lab01 - Data Flow, Componentes e Regras de Associação
 
-A seguir é apresentada a estrutura de pastas esperada para entrega de laboratórios:
+---
 
-~~~
-├── README.md  <- apresentação do aluno
-│
-├── lab01      <- primeiro lab
-│
-├── lab02      <- segundo lab
-│
-├── lab03     <- terceiro lab
-│
-├── lab04     <- quarto lab
-│
-├── lab05     <- quinto lab
-│
-└── lab06    <- sexto lab
-~~~
+## Projeto Orange / Regras de Associação para Foodmart
 
-Na raiz deve haver um arquivo de nome `README.md` contendo a apresentação do aluno, como detalhado na seção seguinte.
+Acesse o diretório [orange/foodmart em santanche/component2learn](https://github.com/santanche/component2learn/tree/master/labs/01-data-flow/orange/foodmart), que relaciona compras realizadas por clientes sobre produtos, e descubra regras de associação entre produtos. Como estes dados poderiam ser explorados para recomendar produtos para clientes?
 
-## `labXX`
+### Imagem do Projeto
 
-Arquivos e diretórios referentes à entrega de um laboratório específico. Cada diretório terá sua configuração detalhada abaixo.
+_Data flow_  
 
-# Modelo para Apresentação do Aluno e Laboratórios
+![foodmart2000-association](images/foodmart2000-association.png)
 
-Este vídeo mostra como usar o Github e o Markdown para criar as suas submissões:
+### Arquivos do Projeto
 
-[![Fundamentos de Markdown - Criando documentos e sites no Github](http://img.youtube.com/vi/fDyGs18_ITQ/0.jpg)](https://youtu.be/fDyGs18_ITQ)
+- [orange/foodmart](orange/foodmart)
 
-Este é um guia de como produzir documentação em Markdown. Para entender como criar documentos em Markdown no Github, veja o material/vídeo:
-[Guia de Uso do Markdown](https://github.com/mc-unicamp/oficinas/tree/master/docs).
+---
 
-Vide detalhes sobre o Markdown em: [Mastering Markdown](https://guides.github.com/features/mastering-markdown/).
+## Projeto Orange / Análise de Dados do Google PlayStore
 
-E mais especificamente sobre tabelas em: [Organizing information with tables](https://help.github.com/en/articles/organizing-information-with-tables)
+Acesse o diretório [orange/google-playstore em santanche/component2learn](https://github.com/santanche/component2learn/tree/master/labs/01-data-flow/orange/google-playstore) e elabore algum projeto que apresente algum gráfico que permita uma análise interessante dos dados.
 
-Segue abaixo o modelo de como devem ser documentadas as entregas.
-> Tudo o que aparecer neste modo de citação se refere algo que deve ser substituído pelo indicado. No modelo são colocados exemplos ilustrativos, que serão substituídos pelos da sua apresentação.
+### Imagem do Projeto
 
-Para a construção dos diagramas, devem ser usados modelos disponíveis em: [Diagramas de Classes, Interfaces e Componentes](https://docs.google.com/presentation/d/1ML3WrnDtzh-4wqLmdXN9au1TBIwEqo7TIbMLNOYSMAI/edit?usp=sharing)
-# Modelo para Apresentação do Aluno
+_Data flow_  
 
-# Equipe
-* `<nome completo>`
+![google-playstore](images/google-playstore.png)
 
-# Modelo para Apresentação do Lab01 - Data Flow
+### Arquivo do Projeto
 
-Estrutura de pastas:
+- [orange/google](orange/google)
 
-~~~
-├── README.md  <- arquivo apresentando a tarefa
-│
-├── images     <- arquivos de imagens usadas no documento
-│
-└── orange     <- arquivos do Orange
-~~~
+### Gráfico(s) de Análise
 
-# Projeto Orange / Regras de Associação para Foodmart
+_Associacao preco por avaliacao_  
 
-## Imagem do Projeto
-> Coloque uma imagem da captura de tela com o projeto do Orange.
+![google-playstore-distribution-category](images/google-playstore-rating-price-association.png)  
 
-## Arquivo do Projeto
-> Coloque um link para o arquivo em Orange.
 
-# Projeto Orange / Análise de Dados do Google PlayStore
+_Associacao preco por avaliacao com categorizacao_  
 
-## Imagem do Projeto
-> Coloque uma imagem da captura de tela com o projeto do Orange.
+![google-playstore-distribution-rating](images/google-playstore-rating-price-category-association.png)
 
-## Arquivo do Projeto
-> Coloque um link para o arquivo em Orange.
+_Distribuicao avaliacao por categoria na distribuicao de Pareto_  
 
-## Gráfico(s) de Análise
-> Apresente a seguir o(s) gráfico(s) de análise produzidos (se houver) com legendas.
+![google-playstore-distribution-rating](images/google-playstore-rating-category-pareto-distribution.png)
 
-# Projeto de Composição de Componentes para Recomendação
+---
 
-> Imagem (`PNG`) do diagrama de componentes (veja exemplos abaixo).
+## Projeto de Composição de Componentes para Recomendação
 
-# Projeto de Composição de Componentes para Pedido
+Elabore um diagrama compondo componentes que seja capaz de executar o seguinte cenário:
 
-## Diagrama de Componentes
+1. O cliente escolhe um produto para compra.
+2. O sistema encontra os produtos mais prováveis para recomendar, baseado em regras de associação.
+3. O sistema recomenda (ranqueados) três outros produtos para o cliente.
 
-> Imagem (`PNG`) do diagrama de componentes do pedido de um produto (veja exemplos abaixo).
+Nesta tarefa, basta o diagrama de componentes, não é necessário detalhar as interfaces.
 
-## Diagrama de Interfaces
+### Diagrama de Componentes
 
-> Imagem (`PNG`) do detalhamento de interfaces referentes aos componentes.
+![recomendacao](images/exercicio3.png)
 
-<hr>
+---
 
-## `Exemplos de Diagramas de Componentes`
+## Projeto de Composição de Componentes para Pedido
 
-### `Exemplo 1`
+Elabore um diagrama de composição de componentes que execute o fluxo de execução que vai desde o pedido de um produto até a sua entrega para o cliente.
 
-Este é o diagrama compondo componentes para análise:
+Nesta tarefa, você deve detalhar as interfaces em um diagrama UML a parte.
 
-![Diagrama Analise](images/diagrama-componentes-analise.png)
+### Diagrama de Componentes
 
-### `Exemplo 2`
+![pedido_component](images/exercicio4-componentes.png)
 
-Este é um diagrama inicial do projeto de jogos:
+### Diagrama de Interfaces
 
-![Diagrama Jogos](images/diagrama-componentes-jogos.png)
-
-### `Exemplo do Diagrama de Interfaces`
-
-Interfaces associadas a esse componente:
-
-![Diagrama Interfaces](diagrama-interfaces.png)
+![pedido_interface](images/exercicio4-interfaces.png)
