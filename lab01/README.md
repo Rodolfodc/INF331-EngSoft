@@ -13,7 +13,7 @@ _Data flow_
 
 ### Arquivos do Projeto
 
-- [orange/foodmart](orange/FoodMart)
+- [orange/foodmart](Orange/FoodMart)
 
 ---
 
@@ -29,7 +29,7 @@ _Data flow_
 
 ### Arquivo do Projeto
 
-- [orange/google](orange/GoogleStore)
+- [orange/google](Orange/GoogleStore)
 
 ### Gráfico(s) de Análise
 
