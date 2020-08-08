@@ -1,6 +1,3 @@
-Rodolfo Dalla Costa
-
-
 # Estrutura de Arquivos e Pastas
 
 A seguir é apresentada a estrutura de pastas esperada para entrega de laboratórios:
