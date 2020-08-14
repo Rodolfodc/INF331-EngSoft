@@ -12,6 +12,10 @@ No diretório [s02catalog](notebooks/data-flow/s02catalog/) estão três noteboo
 
 A entrega desse lab será formada pelo notebook `components-01-catalog.ipynb` com as seis tarefas resolvidas. Os notebooks `multiplas-interfaces.ipynb` (revisão) e `components-02-whitebox.ipynb` não têm tarefas associadas e o notebook `components-03-statistics.ipynb` tem exercícios opcionais que não precisam ser entregues.
 
+# Acionar os notebooks via Binder
+* Última versão testada e estável:
+  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Rodolfodc/INF331-EngSoft/master)
+
 # Componentes e Mensagens
 
 Esse lab será voltado a componentes na Web usando a implementação do Digital Content Component (DCC).
