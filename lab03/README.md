@@ -47,3 +47,9 @@ Usando o espaço que separa o MVC, detalhe os diagramas das Tarefas 1 e 2, da se
 * considere que os diagramas que você fez fazem parte do Controller;
 * detalhe mais componentes referentes ao Model e ao View;
 * defina como será a interação entre esses componentes.
+
+### Repositório da Equipe
+
+- [eNove/unicamp-engsoft-2020-inf331/lab03 @ Github](https://github.com/eNove/unicamp-engsoft-2020-inf331/tree/master/lab03)
+
+---
