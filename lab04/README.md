@@ -28,3 +28,9 @@ Encontre dois serviços REST interessantes, que recebam no mínimo dois parâmet
 * uma breve descrição do mesmo
 * o cabeçalho HTTP da requisição
 * o cabeçalho e conteúdo JSON, XML ou outro formato da resposta
+
+### Sevico: Poemas.
+* Titulo poemist
+* URL: https://www.poemist.com/api/v1/randompoems
+* Descricao: Uma API que retorna Poemas aleatoriamente.
+* Metodo: GET
