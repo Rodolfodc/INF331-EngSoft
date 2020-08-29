@@ -9,16 +9,21 @@ Para as Tarefas 1, 2 e 3 que estão listadas dentro dos slides:
 *Componentes de Negócio*
 
 Delimite partes do diagrama à esquerda que você avalia que deveriam estar dentro de um componente.
+* Componente:
+![tarefa 1](images/tarefa1.jpg)
 
 ## Tarefa 2
 *Componentes Técnicos*
 
 Separe os componentes do View daqueles definidos no Controller.
-
+* Componente:
+![tarefa 2](images/tarefa2.jpg)
 ## Tarefa 3
 *Componentes Técnicos*
 
 Separe os componentes do Model daqueles definidos no Controller.
+*Componente:
+![tarefa 3](images/tarefa3.jpg)
 
 ## Tarefa 4
 
@@ -118,6 +123,7 @@ Content-Type: application/json
 ### Servico: Localizacao da IIS
 * Nome: Servicao de informacoes da IIS (Estacao Espacial)
 * URI: http://api.open-notify.org/iss-now.json
+* Metodo: GET
 * Descricao: Este endpoint traz as informacoes sobre a atual localizacao da IIS em latitude e longitude.
 * Cabecalho da request:
 ~~~ http
