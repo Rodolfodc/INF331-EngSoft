@@ -121,10 +121,10 @@ Content-Type: application/json
 ~~~
 
 ### Servico: Localizacao da IIS
-* Nome: Servicao de informacoes da IIS (Estacao Espacial)
+* Nome: Servicao de informacoes da ISS (Estacao Espacial)
 * URI: http://api.open-notify.org/iss-now.json
 * Metodo: GET
-* Descricao: Este endpoint traz as informacoes sobre a atual localizacao da IIS em latitude e longitude.
+* Descricao: Este endpoint traz as informacoes sobre a atual localizacao da ISS em latitude e longitude.
 * Cabecalho da request:
 ~~~ http
 GET /iss-now.json HTTP/1.1
