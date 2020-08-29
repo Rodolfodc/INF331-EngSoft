@@ -41,7 +41,6 @@ Accept-Encoding: gzip, deflate, br
 Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
 Cache-Control: max-age=0
 Connection: keep-alive
-Cookie: _ga=GA1.2.1409670960.1598581029; __gads=ID=61e0e7fb5fbade9c-22f65795fbb700d3:T=1598581028:RT=1598581028:S=ALNI_MbtUwkGYJkFs9HpPfdvzSvqhQg4ig
 Host: www.poemist.com
 Sec-Fetch-Dest: document
 Sec-Fetch-Mode: navigate
@@ -114,4 +113,40 @@ Content-Type: application/json
         }
     }
 ]
+~~~
+
+### Servico: Localizacao da IIS
+* Nome: Servicao de informacoes da IIS (Estacao Espacial)
+* URI: http://api.open-notify.org/iss-now.json
+* Descricao: Este endpoint traz as informacoes sobre a atual localizacao da IIS em latitude e longitude.
+* Cabecalho da request:
+~~~ http
+GET /iss-now.json HTTP/1.1
+Host: api.open-notify.org
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+~~~
+* Cabecalho da Resposta:
+~~~ http
+Server: nginx/1.10.3
+Date: Sat, 29 Aug 2020 02:45:59 GMT
+Content-Type: application/json
+Content-Length: 112
+Connection: keep-alive
+access-control-allow-origin: *
+~~~
+* Body da Resposta:
+~~~ json
+{
+    "timestamp": 1598669004,
+    "iss_position": {
+        "longitude": "29.1493",
+        "latitude": "47.6193"
+    },
+    "message": "success"
+}
 ~~~
